@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+
+}
+.header {
+    top: 0;
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDPw727y6LP-FPb1EGv21iYbLuDT5BlwbwKWWeUSrDADx3pzHLS0je-YyvLAuI-z87z0&usqp=CAU");
+    color: white;
+    font-size: 30px;
+}
+
+.element_1{
+    padding: 100px;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    position: static;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    padding: 5px;
+  }
+  
+
+.navbar ul li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 110%;
+    font-family: sans-serif;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.navbar  li a:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+
+.navbar ul li .Search_button{
+        float: right;
+}
+
+.navbar ul li input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius:0px ;
+}
+.navbar ul li .Search_button button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius:0px;
+}
+  
+.element_1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.element_1 .icon_button a{
+    padding-right: 50px;
+}
+
+
+.container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+.container button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+ }
+  
+  /* Add a hover effect for buttons */
+.container button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .container  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+.container {
+    padding: 100px;
+    padding-top:10;
+} 
+  
