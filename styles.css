@@ -92,7 +92,7 @@
   
   /* Set a style for all buttons */
 .container button {
-    background-color: #04AA6D;
+    background-color: #313131;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -113,7 +113,8 @@
     background-color: #f44336;
   }
 .container {
-    padding: 100px;
+    padding-left: 400px;
+    padding-right:400px ;
     padding-top:10;
 } 
   
